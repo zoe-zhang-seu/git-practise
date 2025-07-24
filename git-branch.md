@@ -3,8 +3,35 @@ create
 git branch testing/some-tests
 git branch
 
+git log -n 2
 #switch
 git checkout branchname
 
 git checkout -b branchName #create and  switch to this branch
 
+git branch -d branchName #delete
+
+```
+
+# git merge
+```bash
+git chekcout main 
+# find one commit behind feature branch
+git branch
+git merge featureBranchName # add source
+
+git log -n 2
+
+# fast- forward merge
+
+# three way merge
+
+```
+
+# merge conflict
+```bash
+# at feature branch in cooperation group
+git merge main #from main
+# resolve in vscode
+# vim file.txt
+# i - insert , :wq --exit
